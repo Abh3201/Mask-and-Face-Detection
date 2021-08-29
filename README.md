@@ -1,5 +1,5 @@
 # Deep_blue
-This is deep blue project
+Mask and Face Detection Using YOLOv3.
 
 ## How to run
 ````
