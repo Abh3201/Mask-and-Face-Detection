@@ -137,8 +137,8 @@ def dbase():
 
 def backup():
     s3_client = boto3.client('s3',
-        aws_access_key_id='AKIARLXQJHR5OIVIELOL',
-          aws_secret_access_key= 'rrFtbG43gysAKDbl1PLfCsh6SomAsYDuaP/Z9EoC')
+        aws_access_key_id='YOUR_KEY',
+          aws_secret_access_key= 'YOUR_KEY')
 
     for file in os.listdir('Backup'):
             upload_file_bucket = 'deepblue'
